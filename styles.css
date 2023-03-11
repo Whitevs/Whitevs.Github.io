@@ -1,0 +1,94 @@
+.main-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+header {
+    text-align: center;
+    height: 10vh;
+    color: white;
+    background-color: black;
+
+}
+
+h1,
+h2 {
+    text-align: left;
+    color: white;
+    text-decoration-line: underline overline;
+    text-decoration-thickness: from-font;
+    font-size: 2rem;
+}
+
+.Intro {
+    text-align: center
+}
+
+.image {
+    border: solid 3px black;
+    border-radius: 300px 100px 100px 100px;
+}
+
+.flex-container {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#flexyimage {
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-end;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 25%;
+    %
+}
+
+#bio {
+    display: flex;
+    justify-content: space-around;
+    padding-right: vmax;
+    font-size: large;
+    width: fit-content;
+}
+
+#sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif
+}
+
+.w3-row-padding img {
+    margin-bottom: 12px
+}
+
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {
+    width: 120px;
+    background: #222;
+}
+
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {
+    margin-left: 120px;
+    background: black;
+}
+
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {
+    #main {
+        margin-left: 0
+    }
+}
