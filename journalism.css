@@ -1,0 +1,39 @@
+header {
+    text-align: center;
+    height: 10vh;
+    color: white;
+    background-color: #363636;
+
+}
+
+body {
+    color: white;
+    background-color: #363636;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    text-decoration-line: underline overline;
+    font-size: 2rem;
+}
+
+h2 {
+    text-align: left;
+    color: white;
+    text-decoration-line: underline overline;
+    font-size: 1.5rem;
+}
+
+h3 {
+    text-align: left;
+    color: white;
+    font-weight: bold;
+}
+
+.title {
+    color: white;
+    text-align: center;
+  }
+
+
